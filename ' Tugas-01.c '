@@ -1,0 +1,31 @@
+'Tugas-01.c'
+
+
+#include<iostream.h>
+#include<math.h>
+main() {
+ int A,B,C;
+ long disk;
+ float x1,x2;
+ count<<"koefisien pangkat 2 :";cin>>
+ count<<"koefisien pangkat 1 :";cin>>
+ count<<"koefisien pangkat 0 :";cin>>
+ if (A==0) {
+   count<<"bukan pers.kuadrat.\n";
+   count<<"harga akar="<<-C/B;} else
+    disk = B*B-4*A*C;
+    if (disk>0) {
+      x1 = -B+sqrt(disk)/2*A);
+      x2 = -B-sqrt(disk)/2*A);
+      count<<"diskriminan="<<disk<<
+      count<<"x1="<<x1<<endl;
+      count<<"x2="<<x2<<endl;
+    } else if (disk==0){
+           x1=-B/(2*A); x2=x1;
+      count<<"diskriminan=0/n";
+      count<<"x1="<< x1 <<endl;
+      count<<"x2="<< x2 <<endl;
+      }else count <<"Akar imajiner";
+  }
+  return 0
+}
